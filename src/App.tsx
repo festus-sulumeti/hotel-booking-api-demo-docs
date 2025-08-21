@@ -1,12 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import Home from "./components/Home";
 
 
 const App = () => (
   <Router>
-    <Navbar />
+    
     <div className="flex">
       {/* <Sidebar /> Optional */}
       <div className="flex-1">
