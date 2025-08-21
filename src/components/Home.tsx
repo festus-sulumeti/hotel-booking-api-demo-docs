@@ -112,7 +112,7 @@ const Hero = () => {
               to="/contact"
               className="bg-black text-white border border-gray-300 text-black px-8 py-3 rounded-full font-semibold text-xs uppercase tracking-wider hover:bg-gray-100 transition text-center"
             >
-              Contact Us
+               Know More
             </Link>
           </div>
         </motion.div>
