@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaUser, FaHotel, FaBed, FaCreditCard } from "react-icons/fa";
 import { Link } from "react-router-dom";
 // import Navbar from "./Navbar";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 
 const features = [
   {
@@ -192,7 +192,7 @@ const Hero = () => {
         </motion.div>
       </section>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
