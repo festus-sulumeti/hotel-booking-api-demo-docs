@@ -42,7 +42,7 @@ const Hero = () => {
       {/* <Navbar /> */}
 
       {/* Hero Section */}
-      <section className="bg-green-500 text-black py-32 px-6 sm:px-12 text-center relative overflow-hidden">
+      <section className="bg-white text-black py-32 px-6 sm:px-12 text-center relative overflow-hidden">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -59,14 +59,14 @@ const Hero = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white text-green-500 px-6 sm:px-8 py-3 rounded-full font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-gray-100 transition"
+              className="bg-black text-green-500 px-6 sm:px-8 py-3 rounded-full font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-gray-100 transition"
             >
               <Link to="/docs">Get Started</Link>
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-transparent border border-white text-white px-6 sm:px-8 py-3 rounded-full font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-white hover:text-black transition"
+              className="bg-black border border-white text-white px-6 sm:px-8 py-3 rounded-full font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-white hover:text-black transition"
             >
               <Link to="/auth">API Docs</Link>
             </motion.button>
