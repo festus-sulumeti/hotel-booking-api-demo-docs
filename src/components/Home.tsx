@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { FaUser, FaHotel, FaBed, FaCreditCard } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const features = [
@@ -39,7 +39,7 @@ const features = [
 const Hero = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
 
       {/* Hero Section */}
       <section className="bg-white text-black py-32 px-6 sm:px-12 text-center relative overflow-hidden">
