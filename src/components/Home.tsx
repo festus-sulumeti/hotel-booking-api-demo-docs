@@ -68,7 +68,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="bg-black border border-white text-white px-6 sm:px-8 py-3 rounded-full font-semibold text-sm sm:text-base uppercase tracking-wide hover:bg-white hover:text-black transition"
             >
-              <Link to="/auth">API Docs</Link>
+              <Link to="/api-docs">API Docs</Link>
             </motion.button>
           </div>
         </motion.div>
