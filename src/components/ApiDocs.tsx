@@ -8,7 +8,7 @@ const ApiDocs = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-green-500 text-black py-32 px-6 sm:px-12 text-center">
+      <section className="bg-white text-black py-32 px-6 sm:px-12 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6">
           🧭 API Documentation
         </h1>
